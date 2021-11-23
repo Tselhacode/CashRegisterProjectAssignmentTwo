@@ -1,0 +1,38 @@
+<!-- this is to design one two-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:onClick="onClick">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/prodNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product"/>
+
+        <TextView
+            android:id="@+id/productQntyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="qntyleft"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+         <TextView
+            android:id="@+id/prodTotalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+             android:layout_marginLeft="200dp"
+            android:text="total"/>
+
+
+</LinearLayout>

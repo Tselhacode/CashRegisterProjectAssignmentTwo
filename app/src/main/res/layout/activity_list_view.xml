@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this is to design one two-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product"/>
+
+    <TextView
+        android:id="@+id/productPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="price"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/productQntyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="qntyleft"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="200dp"/>
+
+</LinearLayout>
